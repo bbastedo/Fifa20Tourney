@@ -6,14 +6,14 @@ Just a group of guys trying to have sports during the COVID-19 epidemic.
 https://docs.google.com/spreadsheets/d/11Mh1H0yloi1JgfQUzjNQkVHhXOBpKfDrfOmHj1_TQVM/edit#gid=2011556244
 
 ## Players and Draft Order
-1. Ben
-2. Cole
-3. Brennan
-4. John
-5. Tyler
-6. Luke
-7. Dylan
-8. Erick
+1. Ben - FC Barcelona
+2. Cole - PSG
+3. Brennan - Manchester City
+4. John - Juventes
+5. Tyler - Real Madrid
+6. Luke - Liverpool
+7. Dylan - Bayern Munich
+8. Erick - Dortmund
 
 ## Rules
 1. Each player will be shuffled and the draft.py app will determine the order of the draft.
