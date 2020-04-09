@@ -5,15 +5,15 @@ Just a group of guys trying to have sports during the COVID-19 epidemic.
 ## Scoring System
 https://docs.google.com/spreadsheets/d/11Mh1H0yloi1JgfQUzjNQkVHhXOBpKfDrfOmHj1_TQVM/edit#gid=2011556244
 
-## Players
-- Ben
-- Brennan
-- Cole
-- Dylan
-- Eric
-- John
-- Luke
-- Tyler
+## Players and Draft Order
+1. Ben
+2. Cole
+3. Brennan
+4. John
+5. Tyler
+6. Luke
+7. Dylan
+8. Erick
 
 ## Rules
 1. Each player will be shuffled and the draft.py app will determine the order of the draft.
