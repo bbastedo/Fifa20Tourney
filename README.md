@@ -2,6 +2,9 @@
 ## Description
 Just a group of guys trying to have sports during the COVID-19 epidemic.
 
+## Scoring System
+https://docs.google.com/spreadsheets/d/11Mh1H0yloi1JgfQUzjNQkVHhXOBpKfDrfOmHj1_TQVM/edit#gid=2011556244
+
 ## Players
 - Ben
 - Brennan
@@ -42,4 +45,4 @@ Just a group of guys trying to have sports during the COVID-19 epidemic.
 - Top seeds from each bracket will play opponent of lower seed for opposite bracket.
 - 3rd place game for loser of the semi-final game.
 
-8. Screenshots of each game must be submitted no later than 30 minutes after match has ended. If not submitted in time, results are null and void.
+8. Screenshots of each game must be submitted no later than 30 minutes after match has ended. If not submitted in time, results are null and void. Results can be saved on the Google Doc. 
