@@ -1,5 +1,8 @@
 import pandas as pd
 import random
+import pprint
+
+pp = pprint.PrettyPrinter(indent=2)
 
 randomizer = input("Enter number of times to shuffle the order: ")
 print("--------------------------------------------------")
@@ -40,17 +43,39 @@ if seeds.lower() == "y":
     middle_index = length//2
 
     # slicing the list in half and assigning results to new list
-    vicecity = players[:middle_index]
-    santos = players[middle_index:]
+    uno = players[:middle_index]
+    dos = players[middle_index:]
+    
+    length = len(uno)
+    middle_index=length//2
+    
+    divone = uno[:middle_index]
+    divtwo = uno[middle_index:]
+    divthree = dos[:middle_index]
+    divfour = dos[middle_index:]
 
     # creating new dataFrame and creating our seedings
-    seedings = pd.DataFrame({'Seed':['1','2','3','4','5','6','7','8']})
-    seedings["Vice City"] = vicecity
-    seedings["Los Santos"] = santos
+    seedings = pd.DataFrame({'Seed':['1','2','3','4']})
+    seedings["Liberty City"] = divone
+    seedings["Alderney"] = divtwo
+    seedings["San Andreas"] = divthree
+    seedings["Los Santos"] = divfour
 
     print("Division Breakdown:")
     print(" ")
-    print(seedings)
+#     print("Divison One:")
+    pp.pprint(seedings["Liberty City"])
+    print("--------------------------------------------------")
+#     print("Divison Two:")
+    pp.pprint(seedings["Alderney"])
+    print("--------------------------------------------------")
+#     print("Divison Three:")
+    pp.pprint(seedings["San Andreas"])
+    print("--------------------------------------------------")
+#     print("Divison Four:")
+    pp.pprint(seedings["Los Santos"])
+    print("--------------------------------------------------")
+    
 
 else:
     print("Too bad!")
@@ -67,12 +92,33 @@ else:
     middle_index = length//2
 
     # slicing the list in half and assigning results to new list
-    inglewood = players[:middle_index]
-    bompton = players[middle_index:]
+    uno = players[:middle_index]
+    dos = players[middle_index:]
+    
+    length = len(uno)
+    middle_index=length//2
+    
+    divone = uno[:middle_index]
+    divtwo = uno[middle_index:]
+    divthree = dos[:middle_index]
+    divfour = dos[middle_index:]
 
     # creating new dataFrame and creating our seedings
-    seedings = pd.DataFrame({'Seed':['1','2','3','4','5','6','7','8']})
-    seedings["Inglewood"] = inglewood
-    seedings["Bompton"] = bompton
+    seedings = pd.DataFrame({'Seed':['1','2','3','4']})
+    seedings["Liberty City"] = divone
+    seedings["Alderney"] = divtwo
+    seedings["San Andreas"] = divthree
+    seedings["Los Santos"] = divfour
 
-    print(seedings)
+    #     print("Divison One:")
+    pp.pprint(seedings["Liberty City"])
+    print("--------------------------------------------------")
+#     print("Divison Two:")
+    pp.pprint(seedings["Alderney"])
+    print("--------------------------------------------------")
+#     print("Divison Three:")
+    pp.pprint(seedings["San Andreas"])
+    print("--------------------------------------------------")
+#     print("Divison Four:")
+    pp.pprint(seedings["Los Santos"])
+    print("--------------------------------------------------")
